@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AShish Kumar</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="full stack developer | angular | Node.js | Express.js | MomgoDb">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body,html{
+           margin: 0;
+        }
+        div.main{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.pexels.com/photos/1619801/pexels-photo-1619801.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            
+            background-size: cover;
+            background-position: center;
+            opacity: 1;
+        }
+        
+        div.top-nav{
+            height: 100px;
+            width: 100%;
+            position: relative;
+            color: #f1f1f1;
+          
+            background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+        }
+        h3.brandname{
+            position: absolute;
+            left: 100px;
+            top:10px;
+            
+            font-size: 30px;
+        }
+        h3.brandname:hover{
+            color: darkgray;
+            transition: all 0.6s ease;
+            cursor: pointer;
+            font-weight: 600;
+            
+        }
+        .nav{
+            position: absolute;
+            right:30px;
+            top:10px;
+            list-style: none;
+            font-weight: 500;
+        }
+        .nav li{
+            display: inline-block;
+            padding: 7px 27px;
+            border: 1px dashed #f1f1f1;
+          
+            margin: 0 5px;
+        }
+        
+        .nav li:hover{
+          
+        }
+        .nav li:hover a{
+            color: darkgrey;
+            transition: all 0.6s ease;
+            cursor: pointer;
+            
+            
+        }
+        .nav li a{
+            font-weight: bold;
+            color: #f1f1f1;
+            text-decoration: none;
+        }
+        footer{
+            border-top: 1px solid #333;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1466378743612-9da217f53e55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+            color: #f1f1f1;
+             background-size: cover;
+            background-position: center;
+        }
+        .footer-social{
+            margin:20%;
+        }
+        
+        .social{
+            
+            list-style: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .social li{
+            display: inline-block;
+            margin: 0px 10px;
+            padding:8%;
+            border-radius: 50%;
+            border:1px dashed #f1f1f1;
+        }
+        .social li i{
+           
+            text-align: center;
+            
+        }
+        
+        .social li:hover{
+            color: #ddd;
+             background: rgba(0,0,0,0.8)
+            border: 1px solid green;
+        }
+        
+        
+         .social li:hover   .fa-facebook{color: blue;}
+       .social li:hover .fa-whatsapp{color: green;}
+       .social li:hover .fa-instagram{color: deeppink}
+        
+       
+        @media screen and (max-width:600px){
+            h3.brandname{
+                
+        display: block;
+                padding-bottom: 10px;
+                border-bottom: 2px solid green;
+                
+            }
+            .nav li{
+                float: none;
+                border: none;
+                display: block;
+                text-align:left;
+                
+            }  
+            .nav{
+                
+                top:70px;
+                margin: 10px;
+            }
+            h3.brandname{
+                margin:20px 0;
+            }
+           
+            .nav li{
+                text-align: left;
+               width: 100%;
+              display: block;
+                text-align: center;
+                
+            }
+            
+           
+        }
+        @media screen and (max-width:1206){
+            h3.brandname{position:static;
+            width: 100%;}
+            .nav{
+                position:relative;
+                display: block;
+                width: 100%;
+            }  
+        }
+        
+    </style>
+</head>
+<body>
+
+        
+            <div class="main">
+   <i class="material-icons">&#xe5d2;</i>
+    <div class="top-nav">
+        <h3 class="brandname">Ashish Kumar</h3>
+     
+        <ul class="nav">
+            <li><a href="https://ashishfgiet.tk">HOME</a></li>
+            <li><a href="https://ashishtech-solution.xyz/">ABOUT ME</a></li>
+            <li><a href="https://wa.me/+917068513356">CONTACT US</a></li>
+            <li><a href="">PRIVACY POLICY</a></li>
+            <li><a href="">DISCLAIMER</a></li>
+        </ul>
+    </div>
+</div>
+     
+    
+    
+            <footer>
+            
+    <div class="footer-social">
+        <ul class="social">
+        <li><a href="https://wa.me/+7068513356"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="https://fb.com/ashish121306"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://instagram.com/ashish_kumar231"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+    </div>
+    
+    
+    
+    </footer>
+   
+
+       
+
+</body>
+
+</html>
